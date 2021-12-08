@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    double x,y,d,z;
+    printf("Enter the value muldhon: ");
+    scanf("%lf",&x);
+
+    printf("Enter the parcentage of muldhon: ");
+    scanf("%lf",&y);
+
+    d=x*(y/100);
+    z=x+d;
+    printf("The total amount to pay %0.2lf + %0.2lf = %lf\n",x,d,z);
+    return 0;
+}
