@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main ()
+{
+    int i,x,y,z;
+    for(i=1;i<=10;i++) {
+        printf("Enter the value of X: ");
+        scanf("%d",&x);
+        printf("Enter the value of Y: ");
+        scanf("%d",&y);
+        z=x+y;
+        printf("Sum is %d\n",z);
+    }
+    return 0;
+}
